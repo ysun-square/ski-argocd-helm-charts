@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  ski-argocd:
+  - apiVersion: v2
+    appVersion: 2.12.3
+    created: "2024-09-03T13:53:50.937949-07:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 7.5.0
+    description: customized argoCD for SKI
+    digest: 01b7aa49b371e2cc92d2ba69a68ee1f63d5beb799daf51cd8706948434be7f43
+    keywords:
+    - argocd
+    - gitops
+    - ski
+    name: ski-argocd
+    type: application
+    urls:
+    - https://ysun-square.github.io/ski-argocd-helm-charts/charts/charts/ski-argocd-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-09-03T13:53:50.926611-07:00"
